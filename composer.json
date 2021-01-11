@@ -1,0 +1,19 @@
+{
+    "name": "xiyao/hello",
+    "description": "echo hello",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian103",
+            "email": "852863107@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
